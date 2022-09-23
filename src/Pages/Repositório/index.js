@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect, useState } from 'react'
 import * as S from './styles.js'
 import { useParams, useNavigate } from 'react-router-dom'
@@ -16,7 +17,6 @@ export default function Repos() {
     const [infoRepo, setInfoRepo] = useState({})
     const [infoIssues, setInfoIssues] = useState([])
     const [page, setPage] = useState(1)
-    const [state, setState] = useState('open')
 
     const [loading, setLoading] = useState(true)
     const [loadingIssues, setLoadingIssues] = useState(false)
