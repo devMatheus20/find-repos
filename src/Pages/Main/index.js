@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useRef, useState, useCallback, useEffect } from 'react'
 import * as S from './styles.js'
 import { useNavigate } from 'react-router-dom'
@@ -106,7 +107,7 @@ export default function Main() {
 
     }, [repositorios])
 
-
+    // eslint-disable-next-line
     const handleDelete = useCallback((repoName) => {
 
         const storageUser = JSON.parse(localStorage.getItem('Repositorios'))
