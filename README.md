@@ -1,5 +1,3 @@
-# 📞 Sistema de chamados
-
 <!-- <img id="top" src="src/assets/screen.png" width="800px" alt="Foto apresentando o projeto"> -->
 
 > 🔎 Projeto feito com a intenção de treinar alguns conceitos do ReactJS.
